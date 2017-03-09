@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e -x 
+
+
+# 10.2.20.66:8080 yufa
+# 10.2.10.139
+
+#curl http://10.2.20.66:8080/recom/dump.json?action=/configor/bigdata/task/mslp_martshow_item_data"&"eid=$1"&"ip=$2
+curl http://10.2.10.139/recom/dump.json?action=/configor/bigdata/task/query2cat/query2cat_by_click_data"&"eid=$1"&"ip=$2
+
+exit $?
