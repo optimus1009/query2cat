@@ -1,7 +1,0 @@
-add first line:
-add second line on anther branch
-
-<<<<<<< HEAD
-=======
-create a new branch is quick and simple
->>>>>>> feature1
